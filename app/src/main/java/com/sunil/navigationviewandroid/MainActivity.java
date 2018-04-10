@@ -46,6 +46,7 @@ public class MainActivity extends AppCompatActivity implements RecyclerAdapter.I
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         ButterKnife.bind(this);
+        
 
         setSupportActionBar(toolbar);
         final ActionBar actionar = getSupportActionBar();
